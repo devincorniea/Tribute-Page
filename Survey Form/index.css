@@ -1,0 +1,47 @@
+#title,
+#description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.survey-box {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+#number,
+#name,
+#email,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#number-label,
+#name-label,
+#email-label,
+#dropdown {
+    height: 2rem;
+    border-radius: 6px;
+}
+
+#survey-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(158, 158, 206);
+    padding-left: rem;
+}
+
+option:disabled {
+    color: gray;
+}
+
+.presidents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

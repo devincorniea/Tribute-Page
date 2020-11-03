@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Survey</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+
+        <header>
+            <h1 id="title">Voting Information Survey</h1>
+            <p id="description">Thank you for taking this survey which is vital to collecting information on voting habits for Americans.</p>
+        </header>
+
+            <form id="survey-form">
+
+                <div class="survey-box">
+                    <label for="name" id="name">Name</label>
+                    <br>
+                    <input type="name" id="name-label" placeholder="Enter your name" required>
+                </div>
+
+                <div class="survey-box">
+                    <label for="email" id="email">Email</label>
+                    <br>
+                    <input type="email" id="email-label" placeholder="Enter your email" required>
+                </div>
+
+                <div class="survey-box">
+                    <label for="number" id="number">Age (Optional)</label>
+                    <br>
+                    <input type="number" id="number-label" placeholder="Age" max="100" min="18">
+                </div>
+
+                <div class="survey-box">
+                    <p>Are you voting this election?</p>
+                    <select id="dropdown" name="role" required>
+                        <option disabled selected value="Choose">Choose</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        <option value="Perfer not to say">Perfer not to say</option>
+                    </select>
+                </div>
+
+                <div class="survey-box">
+                    <p>(Optional) If you selected "Yes" who do you plan on voting for?</p>
+                    <label class="presidents">
+                        <input name="user-recommended" value="Donald Trump" type="radio" class="input-radio">
+                        Donald Trump
+                    </label>
+                    <br>
+                    <label class="presidents">
+                        <input name="user-recommended" value="Joe Biden" type="radio" class="input-radio">
+                        Joe Biden
+                    </label>
+                    <br>
+                    <label class="presidents">
+                        <input name="user-recommended" value="Kanye West" type="radio" class="input-radio">
+                        Kanye West
+                    </label>
+                </div>
+
+            </form>
+
+    </div>
+</body>
+
+</html>

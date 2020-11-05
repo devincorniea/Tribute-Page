@@ -18,6 +18,7 @@ p {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    font-family: sans-serif;
 }
 
 #number-label,
@@ -26,14 +27,18 @@ p {
 #dropdown {
     height: 2rem;
     border-radius: 6px;
+    display: flex;
 }
 
 #survey-form {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    background-color: rgb(158, 158, 206);
-    padding-left: rem;
+    background-color: rgb(233, 233, 233);
+    width: 20rem;
+    margin-left: 35rem;
+    border-radius: 2rem;
 }
 
 option:disabled {
@@ -45,3 +50,54 @@ option:disabled {
     justify-content: center;
     align-items: center;
 }
+
+.parties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comment {
+    min-height: 120px;
+    width: 93%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+#name-label,
+#email-label {
+    width: 15rem;
+}
+
+#number-label {
+    width: 3rem;
+}
+
+#dropdown {
+    width: 10rem;
+}
+
+body {
+    background-image: url("/Users/devincorniea1/Desktop/Coding/Week 4/waving-flag.jpg");
+    background-size: 120rem;
+    background-position: auto;
+}
+
+#title,
+#description {
+    font-family: monospace;
+    color: rgb(247, 253, 235);
+    background-color: black;
+}
+
+#title {
+    width: 25rem;
+    margin-left: 33rem;
+    border-radius: 2rem;
+}
+
+#description {
+    width: 62rem;
+    margin-left: 14rem;
+}
+

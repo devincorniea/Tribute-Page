@@ -49,19 +49,46 @@
                 <div class="survey-box">
                     <p>(Optional) If you selected "Yes" who do you plan on voting for?</p>
                     <label class="presidents">
-                        <input name="user-recommended" value="Donald Trump" type="radio" class="input-radio">
+                        <input name="user-recommended" value="Donald Trump" type="radio" class="pres-radio">
                         Donald Trump
                     </label>
                     <br>
                     <label class="presidents">
-                        <input name="user-recommended" value="Joe Biden" type="radio" class="input-radio">
+                        <input name="user-recommended" value="Joe Biden" type="radio" class="pres-pres">
                         Joe Biden
                     </label>
                     <br>
                     <label class="presidents">
-                        <input name="user-recommended" value="Kanye West" type="radio" class="input-radio">
+                        <input name="user-recommended" value="Kanye West" type="radio" class="pres-radio">
                         Kanye West
                     </label>
+                </div>
+
+                <div class="survey-box">
+                    <p>What party do you affiliate with?</p>
+                    <label class="parties">
+                        <input name="prefer" value="republican" type="checkbox">
+                        Republican
+                    </label>
+                    <br>
+                    <label class="parties">
+                        <input name="prefer" value="democrat" type="checkbox">
+                        Democrat
+                    </label>
+                    <br>
+                    <label class="parties">
+                        <input name="prefer" value="other" type="checkbox">
+                        Other
+                    </label>
+                </div>
+
+                <div class="survey-box">
+                    <p>(Optional) If "Other" has been selected, please take the time to state your affiliation.</p>
+                    <textarea id="comment" name="comment" placeholder="Enter affiliation here..."></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" id="submit">Submit</button>
                 </div>
 
             </form>
